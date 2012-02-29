@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE4F513514FE1630005DC553 /* BookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4F513414FE162F005DC553 /* BookCell.m */; };
+		CE4F513914FE2028005DC553 /* BooknameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4F513814FE2028005DC553 /* BooknameCell.m */; };
+		CE4F513F14FE2880005DC553 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4F513E14FE2880005DC553 /* libsqlite3.dylib */; };
 		CEA6C6F414FC617E00313C46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA6C6F314FC617E00313C46 /* UIKit.framework */; };
 		CEA6C6F614FC617E00313C46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA6C6F514FC617E00313C46 /* Foundation.framework */; };
 		CEA6C6F814FC617E00313C46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA6C6F714FC617E00313C46 /* CoreGraphics.framework */; };
@@ -16,9 +19,7 @@
 		CEA6C70614FC617F00313C46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA6C70514FC617F00313C46 /* AppDelegate.m */; };
 		CEA6C70914FC617F00313C46 /* Reader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEA6C70714FC617F00313C46 /* Reader.xcdatamodeld */; };
 		CEA6C71014FC621F00313C46 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA6C70F14FC621F00313C46 /* MainWindow.xib */; };
-		CEA6C71714FC646800313C46 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA6C71614FC646800313C46 /* RootViewController.m */; };
 		CEA6C72014FC808B00313C46 /* shujia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA6C71D14FC808B00313C46 /* shujia@2x.png */; };
-		CEA6C72114FC808B00313C46 /* VisionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA6C71F14FC808B00313C46 /* VisionButton.m */; };
 		CEA6C75614FC810100313C46 /* 2009169131400_2_Large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEA6C72314FC810100313C46 /* 2009169131400_2_Large.jpg */; };
 		CEA6C75714FC810100313C46 /* 2009169131400_2_Small.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEA6C72414FC810100313C46 /* 2009169131400_2_Small.jpeg */; };
 		CEA6C75814FC810100313C46 /* 201111231610235016.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEA6C72514FC810100313C46 /* 201111231610235016.jpg */; };
@@ -70,10 +71,21 @@
 		CEA6C78614FC810100313C46 /* movie2_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEA6C75314FC810100313C46 /* movie2_large.jpg */; };
 		CEA6C78714FC810100313C46 /* movie2_small.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEA6C75414FC810100313C46 /* movie2_small.jpeg */; };
 		CEA6C78814FC810100313C46 /* movie3_small.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEA6C75514FC810100313C46 /* movie3_small.jpeg */; };
-		CEA6C78A14FC847300313C46 /* mediatop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA6C78914FC847300313C46 /* mediatop@2x.png */; };
+		CEA6C78A14FC847300313C46 /* Topbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA6C78914FC847300313C46 /* Topbar@2x.png */; };
+		CEA6C7D314FCCAAF00313C46 /* BookButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA6C7CB14FCCAAF00313C46 /* BookButton.m */; };
+		CEA6C7D414FCCAAF00313C46 /* BookContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA6C7CD14FCCAAF00313C46 /* BookContentViewController.m */; };
+		CEA6C7D514FCCAAF00313C46 /* DWLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA6C7D014FCCAAF00313C46 /* DWLabel.m */; };
+		CEA6C7D614FCCAAF00313C46 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA6C7D214FCCAAF00313C46 /* RootViewController.m */; };
+		CEA6C7DC14FCD87400313C46 /* btnBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA6C7DB14FCD87400313C46 /* btnBack@2x.png */; };
+		CEA6C7DE14FCD94100313C46 /* mediaReturnBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA6C7DD14FCD94000313C46 /* mediaReturnBtn@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE4F513314FE162F005DC553 /* BookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCell.h; sourceTree = "<group>"; };
+		CE4F513414FE162F005DC553 /* BookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCell.m; sourceTree = "<group>"; };
+		CE4F513714FE2028005DC553 /* BooknameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooknameCell.h; sourceTree = "<group>"; };
+		CE4F513814FE2028005DC553 /* BooknameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooknameCell.m; sourceTree = "<group>"; };
+		CE4F513E14FE2880005DC553 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		CEA6C6EF14FC617E00313C46 /* Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA6C6F314FC617E00313C46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEA6C6F514FC617E00313C46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,11 +99,7 @@
 		CEA6C70514FC617F00313C46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CEA6C70814FC617F00313C46 /* Reader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reader.xcdatamodel; sourceTree = "<group>"; };
 		CEA6C70F14FC621F00313C46 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		CEA6C71514FC646700313C46 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		CEA6C71614FC646800313C46 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		CEA6C71D14FC808B00313C46 /* shujia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shujia@2x.png"; sourceTree = "<group>"; };
-		CEA6C71E14FC808B00313C46 /* VisionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisionButton.h; sourceTree = "<group>"; };
-		CEA6C71F14FC808B00313C46 /* VisionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisionButton.m; sourceTree = "<group>"; };
 		CEA6C72314FC810100313C46 /* 2009169131400_2_Large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2009169131400_2_Large.jpg; sourceTree = "<group>"; };
 		CEA6C72414FC810100313C46 /* 2009169131400_2_Small.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2009169131400_2_Small.jpeg; sourceTree = "<group>"; };
 		CEA6C72514FC810100313C46 /* 201111231610235016.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 201111231610235016.jpg; sourceTree = "<group>"; };
@@ -143,7 +151,17 @@
 		CEA6C75314FC810100313C46 /* movie2_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = movie2_large.jpg; sourceTree = "<group>"; };
 		CEA6C75414FC810100313C46 /* movie2_small.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = movie2_small.jpeg; sourceTree = "<group>"; };
 		CEA6C75514FC810100313C46 /* movie3_small.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = movie3_small.jpeg; sourceTree = "<group>"; };
-		CEA6C78914FC847300313C46 /* mediatop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mediatop@2x.png"; sourceTree = "<group>"; };
+		CEA6C78914FC847300313C46 /* Topbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Topbar@2x.png"; sourceTree = "<group>"; };
+		CEA6C7CA14FCCAAF00313C46 /* BookButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookButton.h; sourceTree = "<group>"; };
+		CEA6C7CB14FCCAAF00313C46 /* BookButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookButton.m; sourceTree = "<group>"; };
+		CEA6C7CC14FCCAAF00313C46 /* BookContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookContentViewController.h; sourceTree = "<group>"; };
+		CEA6C7CD14FCCAAF00313C46 /* BookContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookContentViewController.m; sourceTree = "<group>"; };
+		CEA6C7CF14FCCAAF00313C46 /* DWLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWLabel.h; sourceTree = "<group>"; };
+		CEA6C7D014FCCAAF00313C46 /* DWLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWLabel.m; sourceTree = "<group>"; };
+		CEA6C7D114FCCAAF00313C46 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CEA6C7D214FCCAAF00313C46 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CEA6C7DB14FCD87400313C46 /* btnBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnBack@2x.png"; sourceTree = "<group>"; };
+		CEA6C7DD14FCD94000313C46 /* mediaReturnBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mediaReturnBtn@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4F513F14FE2880005DC553 /* libsqlite3.dylib in Frameworks */,
 				CEA6C6F414FC617E00313C46 /* UIKit.framework in Frameworks */,
 				CEA6C6F614FC617E00313C46 /* Foundation.framework in Frameworks */,
 				CEA6C6F814FC617E00313C46 /* CoreGraphics.framework in Frameworks */,
@@ -181,6 +200,7 @@
 		CEA6C6F214FC617E00313C46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE4F513E14FE2880005DC553 /* libsqlite3.dylib */,
 				CEA6C6F314FC617E00313C46 /* UIKit.framework */,
 				CEA6C6F514FC617E00313C46 /* Foundation.framework */,
 				CEA6C6F714FC617E00313C46 /* CoreGraphics.framework */,
@@ -195,11 +215,7 @@
 				CEA6C70414FC617F00313C46 /* AppDelegate.h */,
 				CEA6C70514FC617F00313C46 /* AppDelegate.m */,
 				CEA6C70F14FC621F00313C46 /* MainWindow.xib */,
-				CEA6C71514FC646700313C46 /* RootViewController.h */,
-				CEA6C71614FC646800313C46 /* RootViewController.m */,
-				CEA6C71E14FC808B00313C46 /* VisionButton.h */,
-				CEA6C71F14FC808B00313C46 /* VisionButton.m */,
-				CEA6C70714FC617F00313C46 /* Reader.xcdatamodeld */,
+				CEA6C7C914FCCAAF00313C46 /* classes */,
 				CEA6C71C14FC808B00313C46 /* images */,
 				CEA6C6FC14FC617F00313C46 /* Supporting Files */,
 			);
@@ -209,6 +225,7 @@
 		CEA6C6FC14FC617F00313C46 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CEA6C70714FC617F00313C46 /* Reader.xcdatamodeld */,
 				CEA6C6FD14FC617F00313C46 /* Reader-Info.plist */,
 				CEA6C6FE14FC617F00313C46 /* InfoPlist.strings */,
 				CEA6C70114FC617F00313C46 /* main.m */,
@@ -220,8 +237,10 @@
 		CEA6C71C14FC808B00313C46 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				CEA6C7DD14FCD94000313C46 /* mediaReturnBtn@2x.png */,
+				CEA6C7DB14FCD87400313C46 /* btnBack@2x.png */,
 				CEA6C72214FC810000313C46 /* MediaOfflineImage */,
-				CEA6C78914FC847300313C46 /* mediatop@2x.png */,
+				CEA6C78914FC847300313C46 /* Topbar@2x.png */,
 				CEA6C71D14FC808B00313C46 /* shujia@2x.png */,
 			);
 			path = images;
@@ -283,6 +302,33 @@
 				CEA6C75514FC810100313C46 /* movie3_small.jpeg */,
 			);
 			path = MediaOfflineImage;
+			sourceTree = "<group>";
+		};
+		CEA6C7C914FCCAAF00313C46 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6C7D114FCCAAF00313C46 /* RootViewController.h */,
+				CEA6C7D214FCCAAF00313C46 /* RootViewController.m */,
+				CEA6C7CA14FCCAAF00313C46 /* BookButton.h */,
+				CEA6C7CB14FCCAAF00313C46 /* BookButton.m */,
+				CEA6C7CC14FCCAAF00313C46 /* BookContentViewController.h */,
+				CEA6C7CD14FCCAAF00313C46 /* BookContentViewController.m */,
+				CE4F513714FE2028005DC553 /* BooknameCell.h */,
+				CE4F513814FE2028005DC553 /* BooknameCell.m */,
+				CE4F513314FE162F005DC553 /* BookCell.h */,
+				CE4F513414FE162F005DC553 /* BookCell.m */,
+				CEA6C7CE14FCCAAF00313C46 /* DWLabel */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		CEA6C7CE14FCCAAF00313C46 /* DWLabel */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6C7CF14FCCAAF00313C46 /* DWLabel.h */,
+				CEA6C7D014FCCAAF00313C46 /* DWLabel.m */,
+			);
+			path = DWLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,7 +435,9 @@
 				CEA6C78614FC810100313C46 /* movie2_large.jpg in Resources */,
 				CEA6C78714FC810100313C46 /* movie2_small.jpeg in Resources */,
 				CEA6C78814FC810100313C46 /* movie3_small.jpeg in Resources */,
-				CEA6C78A14FC847300313C46 /* mediatop@2x.png in Resources */,
+				CEA6C78A14FC847300313C46 /* Topbar@2x.png in Resources */,
+				CEA6C7DC14FCD87400313C46 /* btnBack@2x.png in Resources */,
+				CEA6C7DE14FCD94100313C46 /* mediaReturnBtn@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,8 +451,12 @@
 				CEA6C70214FC617F00313C46 /* main.m in Sources */,
 				CEA6C70614FC617F00313C46 /* AppDelegate.m in Sources */,
 				CEA6C70914FC617F00313C46 /* Reader.xcdatamodeld in Sources */,
-				CEA6C71714FC646800313C46 /* RootViewController.m in Sources */,
-				CEA6C72114FC808B00313C46 /* VisionButton.m in Sources */,
+				CEA6C7D314FCCAAF00313C46 /* BookButton.m in Sources */,
+				CEA6C7D414FCCAAF00313C46 /* BookContentViewController.m in Sources */,
+				CEA6C7D514FCCAAF00313C46 /* DWLabel.m in Sources */,
+				CEA6C7D614FCCAAF00313C46 /* RootViewController.m in Sources */,
+				CE4F513514FE1630005DC553 /* BookCell.m in Sources */,
+				CE4F513914FE2028005DC553 /* BooknameCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +558,7 @@
 				CEA6C70E14FC617F00313C46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
